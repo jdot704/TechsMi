@@ -1,0 +1,96 @@
+body {background-image: url(BG@2x.png);
+background-size: 1366px 768px}
+
+
+header{text-align: center;}
+
+h1 
+{text-align: center;
+color: white;
+margin: 0 0 20px 0;
+font-weight: 300; 
+font-size: 28px
+}
+
+#login-box
+{position: relative;
+	margin: 10% auto;
+	height: 400px;
+	background:;
+	box-shadow: 0 2px 4px rgba(0, 8, 0, 0.6);
+	
+}
+.left-box{
+	position: absolute;
+	top: 0px;
+	right: 1px;
+	left: 2px;
+	box-sizing:inherit;
+	padding: 150px;
+	width:90px;
+	height:60px;
+}
+.right-box{}
+
+input[type = text],[type=password]	
+{width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+	border-width: 100%;
+border: none;
+border-bottom: 2px solid white;
+background: none;
+text-align: center;
+box-sizing: border-box;
+height: 2px; font-size: 10pt;
+width:200px;
+color: white
+}
+
+input[type = submit]
+{width: 200px;
+padding: 12px 20px;
+margin: 8px 0;
+border-width: 100%;
+text-align: center;
+background-color: mediumpurple;
+	box-sizing: border-box;
+	border-color: none;
+	font-size: 22px;
+	font-family: sans-serif;
+	
+}
+::-webkit-input-value
+{color: white}
+
+
+::-webkit-input-placeholder{
+	color: white;
+}
+
+.search{position: absolute;
+right: 5%;
+text-align: center; 
+}
+.home, .about {color: aliceblue;
+width: 20px;
+padding: 12px 10px;
+margin: 8px 0;
+text-align: center;
+background-color: mediumpurple;
+	box-sizing: border-box;
+	border-color: none;
+	font-size: 18px;
+	font-family: sans-serif;
+	
+}
+ul { list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:}
+li{ float: left}
+li {display: block; color: white; text-align: center;
+padding: 16px;
+text-decoration: none;}
+li:hover{background-color: deeppink}
